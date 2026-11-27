@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service{
+    width: 100%;
+    height: 91vh;
+    background-color: black;
+}
+
+.service .title{
+    color: whitesmoke;
+    font-size: 34px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.service .serviceInfo{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.service .serviceInfo .serviceCard{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.service .serviceInfo .serviceCard img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.service .serviceInfo .serviceCard h3{
+    color: yellow;
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+.service .serviceInfo .serviceCard p{
+    text-align: center;
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.service .serviceInfo .serviceCard h4{
+    color: yellow;
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.service .serviceInfo .serviceCard .btn2{
+    font-weight: bold;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    background-color: black;
+    color: yellow;
+    margin: 2px;
+}
